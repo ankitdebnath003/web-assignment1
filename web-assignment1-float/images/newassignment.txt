@@ -1,0 +1,11 @@
+first navigation - header
+2nd section.banner - image
+3rd section(services wrap)width 100% float left 
+	div.container - 1180px max width
+			margin 0 auto
+		div.services inner - margin 0 -10px
+			{div.services item - width 25% 
+						padding 0 10px
+				div.services item box padding color bgcolor
+					p }*4
+roboto - font

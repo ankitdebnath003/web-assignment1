@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container img {
+    width: 200px;
+    height: 40px;
+    padding: 20px 80px 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+ul li {
+    padding: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul li:hover {
+    background-color: blue;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
+}
+
+.item1 {
+    background-color: #ffa705;
+}
+
+.item2 {
+    background-color: #935cf5;
+}
+
+.item3 {
+    background-color: #ff2a64;
+}
+
+.item4 {
+    background-color: #ed18e6;
+}
+
+.same_margin {
+    margin: 0 30px;
+    padding: 40px 30px 20px;
+    color: white;
+}
+
+.same_margin h1 {
+    font-size: 30px;
+}
+
+.same_margin img {
+    margin-left: 185px;
+}
+
+.container3 {
+    margin: 20px 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container3 .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+}
+
+.container3 .left h1 {
+    font-size: 40px;
+}
+
+.container3 .left p {
+    margin: 20px 0;
+}
+
+.container3 .left a {
+    padding: 20px 50px;
+    background-color: #ffa705;
+    color: white;
+}
+
+.container4 {
+    margin: 0px 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container4 .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+}
+
+.container4 .right h1 {
+    font-size: 40px;
+}
+
+.container4 .right p {
+    margin: 20px 0;
+}
+
+.container4 .right a {
+    padding: 20px 50px;
+    background-color: #ffa705;
+    color: white;
+}
+
+.overlap-image {
+    margin: 15px 0;
+    background: url("images/swimming-bg1.jpg") no-repeat;
+}
+
+.overlap {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 700px;
+    width: 450px;
+    background-color: #ed18e6;
+    opacity: .9;
+}
+
+.overlap h1 {
+    padding: 50px 40px 30px;
+    font-size: 35px;
+}
+
+.overlap p {
+    padding: 0 40px 50px;
+    font-size: 20px;
+}
+
+.overlap a {
+    padding: 20px 50px;
+    background-color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+.container5 {
+    display: flex;
+    justify-content: center;
+}
+
+.left-portion-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffa705;
+    margin: 0 20px 4px;
+    padding: 30px;
+    color: white;
+}
+
+.left-portion-box h1 {
+    padding: 0 50px 10px;
+    font-size: 40px;
+}
+
+.left-portion-box p {
+    padding: 10px 50px;
+}
+
+.left-portion-box p img {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.right-image img {
+    height: 400px;
+}
+
+.container6 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.same {
+    padding: 0 30px;
+    margin: 20px 30px;
+    background-color: #f3f3f3;
+}
+
+.same h1 {
+    color: #ec670c;
+    padding: 10px 0;
+}
+
+.same img {
+    border-radius: 50%;
+    padding-left: 20px;
+}
+
+.container7 {
+    display: flex;
+    justify-content: center;
+}
+
+.left-contact {
+    padding: 0 150px;
+    margin: 0 30px;
+    background-color: #0096df;
+}
+
+.left-contact h1,
+.left-contact p {
+    color: white;
+    padding: 20px 0px;
+}
+
+.left-contact img {
+    height: 20px;
+    width: 20px;
+}
+
+.contacts ul li {
+    margin: 10px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: white;
+}
+
+.right-location img {
+    width: 585px;
+    height: 360px;
+}
+
+.end-copyright p {
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
